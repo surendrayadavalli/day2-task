@@ -1,0 +1,51 @@
+#window object:
+=>It is automatically created browser by default and supported by all browsers.
+=>all the objects,variables and functions become members of JavaScript.
+=>window is the object of browser not an object of javascript.
+
+ #properties of the window:
+it is having a boolean ("true" or "false") showing whether the window is closed or not.
+closed;
+console:it refers and return the console object
+document:it refers to that particular document object of that window.
+it also has the different properties like{
+    window.innerwidth;
+    window.innerheight;
+    window.open etc-
+    }
+#window methods
+there are different methods that were used commonly
+for example:{
+    close()
+    prompt()
+    alert()
+    confirm()
+    stop() etc-
+}
+syntax= window.propertyname
+
+
+
+
+
+
+#document object:
+=>It represents any HTML document or web page that is loaded in the browser.
+=>it is loaded inside the window.
+=>the tags and element in HTML are part of document.
+=> it can be accessed by window.document or document.
+
+#properties of document object:
+some of them are:
+1.activeElement :returns the currently active elements in the document.
+2.body:returns the content of the body element.
+3.url:returns url of the document.
+4. title, head
+5.scripts:returns all the elements that present in the script tag.
+
+#method of document:
+ syntax: document.methodname or window.document.methodname:
+
+1. addEventListener() event handler attached to the specified element.
+2. getElementsByID/tag/name():It returns an object containing all the elements with the specified name in the document as objects.
+etc-
